@@ -21,6 +21,7 @@ wwwroot
 www
 .vscode 
 
+*.rsa
 packages
 config
 packageInfo.json
