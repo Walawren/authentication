@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using System.Net;
 
 namespace Walawren.Authentication
 {
@@ -13,6 +14,9 @@ namespace Walawren.Authentication
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseKestrel(options =>{
+                    options.Listen(IPAddress.Loopback, 5000);
+                })
                 .Build();
     }
 }

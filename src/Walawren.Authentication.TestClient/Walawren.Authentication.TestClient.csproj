@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject>Walawren.Authentication.TestClient.Program</StartupObject>
   </PropertyGroup>

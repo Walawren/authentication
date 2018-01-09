@@ -3,9 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Walawren.Authentication.Tests", "Walawren.Authentication.Tests\Walawren.Authentication.Tests.csproj", "{D56AD238-A2ED-4824-814C-8928EA73CB14}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8A18E2B9-128B-4C34-BBCB-B93550F63E34} = {8A18E2B9-128B-4C34-BBCB-B93550F63E34}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Walawren.Authentication", "Walawren.Authentication\Walawren.Authentication.csproj", "{8A18E2B9-128B-4C34-BBCB-B93550F63E34}"
 EndProject
