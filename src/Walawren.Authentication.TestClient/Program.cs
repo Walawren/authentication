@@ -38,7 +38,10 @@ namespace Walawren.Authentication.TestClient
             var client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await client.GetAsync("http://localhost:5001/client-test");
+
+            var url = "http://localhost:5001/api/identity";
+            Console.WriteLine(url);
+            var response = await client.GetAsync(url);
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
